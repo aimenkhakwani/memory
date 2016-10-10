@@ -8,7 +8,7 @@ Memory.prototype.checkMatch = function(cardOne, cardTwo) {
   } else {
     return false;
   }
-  
+
 };
 
 exports.memoryModule = Memory;

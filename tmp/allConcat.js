@@ -12,6 +12,8 @@ $(document).ready(function(){
       $(".output").empty();
       $(this).children().show();
       click += 1;
+      // console.log(cardOne);
+
       if (click === 1) {
         cardOne = $(this).attr("id");
         cardOneImg = $(this).children('img').attr("src");
@@ -30,7 +32,7 @@ $(document).ready(function(){
             $(".output").append("NO match!");
             setTimeout(function() {
               $('#' + cardOne).children().hide();
-              $('#' + cardTwo).ohildren().hide();
+              $('#' + cardTwo).children().hide();
             },1000);
           }
         }
