@@ -1,14 +1,12 @@
 .col-md-4 {
   border: 1px solid #000;
   height: 250px;
-  width: 300px;
+  width: 380px;
   cursor: pointer;
 }
 img {
-  height: 250px;
-  width: 300px;
   display: none;
 }
-h1 {
+h1, h2{
   text-align: center;
 }
